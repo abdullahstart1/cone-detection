@@ -83,6 +83,7 @@ Enter image path(s) or type the start of images you want to test from the sample
 
 Enter the end of images you want to test from the samples in the dataset: 40
 
+
 **Evaluation**
 
 You can evaluate the model's performance on the validation dataset using the following command:
@@ -121,4 +122,3 @@ The results will be displayed in the terminal.
     ├── train.py                  # Training script
     ├── train_main.py             # Main training script
     └──── README.md               # Project description in markdown
-    ```
