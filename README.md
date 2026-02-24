@@ -36,7 +36,8 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
     If you don't have a dataset, you can use your own or collect one.
 
-**Model Training**
+
+## Model Training
 
 To train the CNN model for cone classification, follow these steps:
 
@@ -54,7 +55,7 @@ Modify the configuration file (config.py) to set the correct paths for the datas
 
 The model will be trained and saved to the weights directory.
 
-**Testing the Model**
+## Testing the Model
 
 Once you have a trained model, you can test it on new images using the following steps:
 
@@ -84,7 +85,7 @@ Enter image path(s) or type the start of images you want to test from the sample
 Enter the end of images you want to test from the samples in the dataset: 40
 
 
-**Evaluation**
+## Evaluation
 
 You can evaluate the model's performance on the validation dataset using the following command:
 
@@ -100,7 +101,7 @@ This will compute evaluation metrics such as:
 The results will be displayed in the terminal.
 
 
-**Project Structure**
+### Project Structure
 ```
 /cone-detection
     ├── cones_dataset/            # Dataset directory
