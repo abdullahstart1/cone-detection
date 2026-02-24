@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore datasets and weights folder (typically large data)
+cones_dataset/
+weights/
+
+# Ignore IDE configuration files
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore requirements file
+requirements.txt
